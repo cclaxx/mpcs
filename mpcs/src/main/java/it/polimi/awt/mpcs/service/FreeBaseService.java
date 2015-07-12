@@ -1,0 +1,10 @@
+package it.polimi.awt.mpcs.service;
+
+import it.polimi.awt.mpcs.domain.SeedQuery;
+
+import java.util.List;
+
+public interface FreeBaseService {
+  
+	 List<SeedQuery> mountainRangeSearch(List<SeedQuery> query);
+}
